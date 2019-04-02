@@ -91,7 +91,7 @@ def won?
 
  
  #return false if draw
- !draw?
+ !(winner_O_count==winner_X_count)
 
  
    
