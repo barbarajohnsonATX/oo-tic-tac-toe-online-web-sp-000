@@ -111,13 +111,10 @@ def over?
  end 
 
 def winner
-  result = won?
+  if result = won?
   
-  if result != false 
-    return @board[result[0]]
-  else
-    return nil 
-  end 
+  if result != fals
+  
 end 
 
 def play
