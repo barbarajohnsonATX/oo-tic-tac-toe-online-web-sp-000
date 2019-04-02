@@ -112,7 +112,7 @@ def over?
 
 def winner
   if result = won?
-    @board.firs
+    @board.first
   if result != fals
     return @board[result[0]]
   else
