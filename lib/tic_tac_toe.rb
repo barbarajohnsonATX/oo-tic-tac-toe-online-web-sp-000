@@ -61,7 +61,7 @@ end
 
 def won?
     winner_X_count = 0 
-  winner_O_count = 0 
+   winner_O_count = 0 
   
  WIN_COMBINATIONS.each do |combo| 
   win_index_1 = combo[0]
@@ -90,10 +90,9 @@ def won?
  
 
  
- 
- if winner_O_count == winner_X_count 
-  false 
- end 
+ #return false if draw
+ !draw?
+
  
    
   
